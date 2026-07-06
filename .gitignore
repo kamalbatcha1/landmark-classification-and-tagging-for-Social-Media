@@ -1,0 +1,75 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Test cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Large datasets
+data/
+dataset/
+datasets/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+.cache/
+
+# Bokeh
+.bokeh/
+
+# Matplotlib
+.matplotlib/
+
+# Jupyter runtime
+.jupyter/
+
+# TensorBoard
+runs/
+
+# OS generated files
+desktop.ini
