@@ -1,9 +1,11 @@
 #  Landmark Classification and Social Media Tagging
 
-##  Overview
-This project focuses on building a deep learning-based computer vision system to classify landmark images and enable automatic social media tagging. The model predicts landmark categories from images, helping improve metadata generation for photo-sharing platforms where location information is missing.
 
-The project demonstrates an end-to-end deep learning pipeline using PyTorch, including CNN development from scratch, transfer learning, and performance optimization.
+##  Overview
+
+This project focuses on building a deep learning-based computer vision system to classify landmark images using PyTorch. The objective is to accurately identify landmark categories by developing a custom Convolutional Neural Network (CNN), applying transfer learning, and deploying the trained model as a lightweight web application for image prediction.
+
+The project demonstrates an end-to-end image classification pipeline, including data preprocessing, data augmentation, model training, evaluation, performance optimization, and model deployment.
 
 ---
 
@@ -57,7 +59,7 @@ This improved robustness on unseen real-world images.
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model | Accuracy | Approach |
 |------|---------:|---------|
@@ -71,7 +73,7 @@ This improved robustness on unseen real-world images.
 
 
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Landmark-Classification-and-Tagging-for-Social-Media/
@@ -91,28 +93,18 @@ Landmark-Classification-and-Tagging-for-Social-Media/
 ├── cnn_from_scratch.ipynb
 ├── transfer_learning.ipynb
 ├── requirements.txt
-├── assets/
-│   └── demo.gif
+├── landmark-classification-demo.gif
 └── README.md
 ```
 
 ---
 
-## 📦 Installation
-
-Install dependencies using:
-
-```bash id="install_cmd_final"
-pip install -r requirements.txt
-```
-
----
 
 ## 📦 Dependencies
 
 This project uses the following libraries:
 
-```txt id="libs_final"
+```txt
 opencv-python-headless==4.5.3.56
 matplotlib==3.4.3
 numpy==1.21.2
@@ -129,8 +121,7 @@ seaborn==0.11.2
 ```
 
 ---
-
-## 📌 Key Learnings
+##  Key Learnings
 - Building CNN architectures from scratch using PyTorch
 - Importance of data augmentation in computer vision
 - Transfer learning for performance improvement
